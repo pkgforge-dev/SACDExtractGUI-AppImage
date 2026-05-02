@@ -1,7 +1,5 @@
 #!/bin/sh
 dir=$CONFIGDIR/SACDExtractGUI
 mkdir -p "$dir"
-#if [ ! -f "$dir"/sacd_extract ]; then
-  ln -sf "$APPDIR/bin/sacd_extract" "$dir"
-#fi
+ln -sf "$APPDIR/bin/sacd_extract" "$dir"
 cd "$dir"
