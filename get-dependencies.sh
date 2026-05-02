@@ -24,4 +24,6 @@ mkdir -p ./AppDir/bin
 
 bsdtar -xvf SACDExtractGUI.zip -C ./AppDir/bin
 bsdtar -xvf sacd_extract-0.3.9.3-173-linux.zip -C ./AppDir/bin
+cmake -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DCMAKE_C_FLAGS="-Wno-int-conversion -Wno-incompatible-pointer-types -Wno-implicit-function-declaration" .
+make -j$(nproc)
 rm -f *.zip ./AppDir/bin/LICENSE ./AppDir/bin/README.md
