@@ -1,0 +1,5 @@
+#!/bin/sh
+dir=$CONFIGDIR/SACDExtractGUI
+mkdir -p "$dir"
+ln -sf "$APPDIR/bin/sacd_extract" "$dir"
+cd "$dir"
