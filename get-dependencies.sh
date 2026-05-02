@@ -20,5 +20,9 @@ echo "Getting app..."
 echo "---------------------------------------------------------------"
 wget https://github.com/setmind/SACDExtractGUI/releases/download/v0.1/SACDExtractGUI.zip
 wget https://github.com/EuFlo/sacd-ripper/releases/download/0.3.9.3b/sacd_extract-0.3.9.3-173-linux.zip
-
 mkdir -p ./AppDir/bin
+
+bsdtar -xvf SACDExtractGUI.zip -C ./AppDir/bin
+bsdtar -xvf sacd_extract-0.3.9.3-173-linux.zip -C ./AppDir/bin
+rm -f *.zip
+rm -f ./AppDir/bin/LICENSE ./AppDir/bin/README.md
