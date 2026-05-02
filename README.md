@@ -1,25 +1,27 @@
 <div align="center">
 
-# TEMPLATE-AppImage 🐧
+# SACDExtractGUI-AppImage 🐧
 
-[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/TEMPLATE-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
-[![CI Build Status](https://github.com/pkgforge-dev/TEMPLATE-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
-[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/TEMPLATE-AppImage)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/SACDExtractGUI-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/SACDExtractGUI-AppImage/releases/latest)
+[![CI Build Status](https://github.com/pkgforge-dev/SACDExtractGUI-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/SACDExtractGUI-AppImage/releases/latest)
+[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/SACDExtractGUI-AppImage)](https://github.com/pkgforge-dev/SACDExtractGUI-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://github.com/pkgforge-dev.png" width="128" />
+  <img src="https://raw.githubusercontent.com/pkgforge-dev/SACDExtractGUI-AppImage/refs/heads/main/AppDir/icon0.png" width="256" />
 </p>
 
 
 | Latest Stable Release | Upstream URL |
 | :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest) | [Click here](https://github.com/pkgforge-dev/Anylinux-AppImages) |
+| [Click here](https://github.com/pkgforge-dev/SACDExtractGUI-AppImage/releases/latest) | [Click here](https://github.com/PickRecalled/SACDExtractGUI) |
 
 </div>
 
+## ⚠️ On first run, enter `~/.config/SACDExtractGUI/sacd_extract` in Program field ⚠️
+
 ---
 
-AppImage made using [sharun](https://github.com/VHSgunzo/sharun) and its wrapper [quick-sharun](https://github.com/pkgforge-dev/Anylinux-AppImages/blob/main/useful-tools/quick-sharun.sh), which makes it extremely easy to turn any binary into a portable package reliably without using containers or similar tricks. 
+AppImage made using [quick-sharun](https://github.com/pkgforge-dev/Anylinux-AppImages/blob/main/useful-tools/quick-sharun.sh), which makes it extremely easy to turn any binary into a portable package reliably without using containers or similar tricks. 
 
 **This AppImage bundles everything and it should work on any Linux distro, including old and musl-based ones.**
 
