@@ -18,4 +18,7 @@ get-debloated-pkgs --add-common --prefer-nano
 # If the application needs to be manually built that has to be done down here
 echo "Getting app..."
 echo "---------------------------------------------------------------"
+wget https://github.com/setmind/SACDExtractGUI/releases/download/v0.1/SACDExtractGUI.zip
 wget https://github.com/EuFlo/sacd-ripper/releases/download/0.3.9.3b/sacd_extract-0.3.9.3-173-linux.zip
+
+mkdir -p ./AppDir/bin
