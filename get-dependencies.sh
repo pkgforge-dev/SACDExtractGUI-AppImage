@@ -26,6 +26,7 @@ git clone https://github.com/EuFlo/sacd-ripper
 
 mkdir -p ./AppDir/bin
 bsdtar -xvf SACDExtractGUI.zip -C ./AppDir/bin
+chmod +x ./AppDir/bin/SACDExtractGUI.jar
 #bsdtar -xvf sacd_extract-0.3.9.3-173-linux.zip -C ./AppDir/bin
 rm -f *.zip ./AppDir/bin/LICENSE ./AppDir/bin/README.md
 cd sacd-ripper/tools/sacd_extract
