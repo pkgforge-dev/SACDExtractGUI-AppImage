@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=SACDExtractGUI
+GenericName=SACD GUI ripping tool
+Comment=GUI to rip SACD discs
+Exec=exec.sh
+Icon=icon0
+StartupWMClass=SACDExtractGUI
+Terminal=false
+Categories=AudioVideo;Audio;Converter;
