@@ -20,6 +20,6 @@ mkdir -p ./AppDir/bin
 wget -P ./AppDir/bin https://github.com/rpmzine/SACDExtractGUI/raw/refs/heads/master/SACDExtractGUI.jar 
 git clone --depth 1 https://github.com/EuFlo/sacd-ripper
 cd sacd-ripper/tools/sacd_extract
-cmake -DCMAKE_BUILD_TYPE=Release .
-make -j$(nproc)
-mv -v sacd_extract ../../../AppDir/bin
+cmake -DCMAKE_BUILD_TYPE=Release -S ./sacd-ripper/tools/sacd_extract -B build
+cmake --build build -j$(nproc)
+mv -v build/sacd_extract ./AppDir/bin
