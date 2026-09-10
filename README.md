@@ -13,7 +13,7 @@
 
 | Latest Stable Release | Upstream URL |
 | :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/SACDExtractGUI-AppImage/releases/latest) | [Click here](https://github.com/setmind/SACDExtractGUI) |
+| [Click here](https://github.com/pkgforge-dev/SACDExtractGUI-AppImage/releases/latest) | [Click here](https://github.com/PickRecalled/SACDExtractGUI) |
 
 </div>
 
