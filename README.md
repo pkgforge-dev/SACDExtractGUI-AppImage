@@ -7,7 +7,7 @@
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/SACDExtractGUI-AppImage)](https://github.com/pkgforge-dev/SACDExtractGUI-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Link4Electronics/SACDExtractGUI-AppImage/refs/heads/main/AppDir/icon0.png" width="256" />
+  <img src="https://raw.githubusercontent.com/pkgforge-dev/SACDExtractGUI-AppImage/refs/heads/main/AppDir/icon0.png" width="256" />
 </p>
 
 
