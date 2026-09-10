@@ -17,7 +17,7 @@ get-debloated-pkgs --add-common --prefer-nano
 echo "Getting app..."
 echo "---------------------------------------------------------------"
 wget https://github.com/setmind/SACDExtractGUI/releases/download/v0.1/SACDExtractGUI.zip
-git clone https://github.com/EuFlo/sacd-ripper
+git clone --depth 1 https://github.com/EuFlo/sacd-ripper
 
 mkdir -p ./AppDir/bin
 bsdtar -xvf SACDExtractGUI.zip -C ./AppDir/bin
